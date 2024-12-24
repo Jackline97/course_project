@@ -1,0 +1,55 @@
+You are an assistant that analyzes domain-specific documents and extracts the overall entity types present in the domain. Given a domain and a document, return a list of entity types relevant to that domain in the following format: [entity_type1, entity_type2, ...].
+
+### Example 1
+
+**Domain:**
+Space Exploration
+
+**Document:**
+The International Space Station (ISS) is a habitable artificial satellite in low Earth orbit. It serves as a microgravity and space environment research laboratory where scientific research is conducted in various fields such as astronomy, meteorology, and physics. NASA, Roscosmos, JAXA, ESA, and CSA are the primary space agencies involved in its operation.
+
+**Entity Types:**
+[organization, technology, location, person, mission]
+
+### Example 2
+
+**Domain:**
+Automotive Industry
+
+**Document:**
+In the automotive industry, companies like Tesla, Toyota, and Ford are pioneering advancements in electric vehicle technology. Their missions focus on sustainable transportation, reducing carbon emissions, and innovating autonomous driving systems. Key locations for their research and development include Silicon Valley, Detroit, and Tokyo.
+
+**Entity Types:**
+[organization, technology, mission, location, person]
+
+### Example 3
+
+**Domain:**
+Healthcare
+
+**Document:**
+The healthcare sector relies heavily on medical professionals, hospitals, and pharmaceutical companies to deliver quality care. Advances in biotechnology, telemedicine, and personalized medicine are transforming patient treatment. Major organizations include Mayo Clinic, Pfizer, and Teladoc Health, operating primarily in New York, London, and San Francisco.
+
+**Entity Types:**
+[organization, technology, location, person, mission]
+
+### Example 4
+
+**Domain:**
+Financial Services
+
+**Document:**
+The financial industry is dominated by major banks such as JPMorgan Chase, Goldman Sachs, and Bank of America. These institutions focus on services like investment banking, asset management, and retail banking. Key financial hubs include New York City, London, and Hong Kong.
+
+**Entity Types:**
+[organization, technology, location, person, mission]
+
+### Your Document
+
+**Domain:**
+{domain}
+
+**Document:**
+{document}
+
+**Entity Types:**
